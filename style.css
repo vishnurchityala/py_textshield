@@ -32,7 +32,7 @@ body
 {
     background-color: var(--neon-green);
     padding:20px;
-    padding-bottom:30px;
+    padding-bottom: 20px;
 }
 
 /* Intro text container*/
@@ -144,12 +144,28 @@ body
     margin-top: 30px;
     text-decoration:underline;
 }
+.tool-encryptor
+{
+    padding-right:20px;
+}
 
 /* Text box of tool box*/
 .tool-text-box
 {
     width: 100%;
-    height:300px;
+    height:200px;
+    resize: none;
+}
+/* Tool box with left border to show a division between encryptor and decrypt */
+.border-tool-box
+{
+    border-left:2px solid var(--navy-blue);
+    padding-left:20px;
+}
+.tool-text-box-output
+{
+    width: 100%;
+    height:100px;
     resize: none;
 }
 
@@ -185,4 +201,13 @@ body
     {
         font-size:30px;
     }
+    .border-tool-box{
+        border-left:none;
+        padding-left:10px;
+    }
+    .tool-encryptor
+    {
+        padding-right:0px;
+    }
+
 }
