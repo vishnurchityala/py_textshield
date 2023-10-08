@@ -185,4 +185,8 @@ body
         font-family: 'Gabarito', cursive;
         color: rgb(18, 23, 43);
     }
+    .info-section
+    {
+        width: 100%;
+    }
 }
