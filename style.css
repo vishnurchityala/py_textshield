@@ -32,6 +32,7 @@ body
 {
     background-color: var(--neon-green);
     padding:20px;
+    padding-bottom:30px;
 }
 
 /* Intro text container*/
