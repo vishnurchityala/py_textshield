@@ -159,6 +159,7 @@ body
     .headline-section
     {
         height:0px;
+        width: 0px;
         background-color: rgb(18, 23, 43);
         display: flex;
         flex-direction: column;
