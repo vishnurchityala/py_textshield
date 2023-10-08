@@ -180,5 +180,8 @@ body
         height : 0px;
         padding : 0px;
     }
-
+    .section-title
+    {
+        font-size:30px;
+    }
 }
