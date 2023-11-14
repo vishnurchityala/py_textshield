@@ -185,5 +185,9 @@ body
     {
         font-size:30px;
     }
+    .intro
+    {
+        margin-bottom: 40px;
+    }
 
 }
